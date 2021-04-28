@@ -148,7 +148,7 @@ if __name__ == '__main__':
 
     priors = [1.0/len(means) for _ in means]
 
-    gaussian_mixture = GaussianMixtureDistribution(means=means,
+    gaussian_mixture = GMM_distribution(means=means,
                                                    variances=variances,
                                                    priors=priors)
     dataset = GaussianMixture(1000, means, variances, priors, sources=('features', ))
