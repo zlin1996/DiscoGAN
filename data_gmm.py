@@ -45,7 +45,8 @@ class sample_GMM():
         self.data = data
 
 class GMM_distribution(object):
-    """ Gaussian Mixture Distribution
+    """ 
+    Gaussian Mixture Distribution
 
     Parameters
     ----------
